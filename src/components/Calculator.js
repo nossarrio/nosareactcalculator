@@ -88,7 +88,7 @@ class Calculator extends React.Component
     return(
 
       <div style={wrapperstyle} >
-        <div style={{fontWeight:'bold'}}>Nosa React Calculator</div>
+        <div style={{fontWeight:'bold'}}>Nosa React Calculator.</div>
         <br/>
         <input type="text" style={{textAlign:'right', disabled:'true',fontSize:'50px', padding:50}}  value={this.state.values} className="form-control" ></input>
         <br/>
